@@ -74,7 +74,12 @@ void delete_heap(vector<int> &v)
         }
     }
 }
-
+void print_heap(vector<int> v)
+{
+    for (int val : v)
+        cout << val << " ";
+    cout << endl;
+}
 int main()
 {
     int n;
